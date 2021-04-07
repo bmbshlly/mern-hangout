@@ -9,7 +9,7 @@ import mongoData from "./mongoData.js";
 // app config
 const app = express();
 const port = process.env.PORT || 9000;
-
+const path = require("path");
 const pusher = new Pusher({
   appId: "1183794",
   key: "bd98e8cd776633e99047",
@@ -21,6 +21,7 @@ const pusher = new Pusher({
 // middlewares
 app.use(cors());
 app.use(express.json());
+app.use(express.static(path.join(__dirname, "/client/build")));
 
 // db config
 const mongoURI =
@@ -53,7 +54,10 @@ mongoose.connection.once("open", () => {
 });
 
 // api routes
-app.get("/", (req, res) => res.status(200).send("Hello you did it 🚀"));
+//app.get("/", (req, res) => res.status(200).send("Hello you did it 🚀"));
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+});
 
 app.post("/new/conversation", (req, res) => {
   const dbData = req.body;
