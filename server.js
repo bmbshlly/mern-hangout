@@ -3,13 +3,13 @@ import express from "express";
 import mongoose from "mongoose";
 import Pusher from "pusher";
 import cors from "cors";
-
+import path from "path";
 import mongoData from "./mongoData.js";
 
 // app config
 const app = express();
+const __dirname = path.resolve();
 const port = process.env.PORT || 9000;
-const path = require("path");
 const pusher = new Pusher({
   appId: "1183794",
   key: "bd98e8cd776633e99047",
