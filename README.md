@@ -38,12 +38,16 @@ Application uses PostgreSQL(relation database) to store user information and the
 [<img src="https://github.com/bmbshlly/django-blogpost/blob/main/giphy.gif" width="480" height="270">](https://django-blogpost.herokuapp.com)
 
 ## Tools:
-- [Bootstrap](https://getbootstrap.com) - A CSS framework.
-- [Django](https://www.djangoproject.com) - Backend framework in python.
-- [PostgreSQL](https://www.postgresql.org) - A relational database system.
+- [Material-UI](https://material-ui.com) - React UI framework
+- [Redux](https://redux.js.org) - State container for JS
+- [React](https://reactjs.org) - JS library
+
+- [Pusher](https://pusher.com) - Realtime chat
+- [Express](https://expressjs.com) - Node.js(https://nodejs.org) framework
+- [Postman](https://www.postman.com) - API testing  
+- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) - NoSQL cloud database
+- [Firebase](https://firebase.google.com/docs/auth) - Google authentication
 - [Heroku](https://www.heroku.com) - Deloyment.
-- [AWS](https://aws.amazon.com) - S3 bucket, IAM.
-- [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) - Let browser to access AWS bucket.
 
 ## Key features:
 - Authentication (register, login, logout)
@@ -87,7 +91,7 @@ Now we're ready to start our server using [Nodemon](https://nodemon.io):
 (venv) $ nodemon server.js
 ```
 
-Open http://localhost:3000 (port number is prompted) to view it in your browser.
+Open http://localhost:9000 (port number is prompted) to view it in your browser.
 The app will automatically reload if you make changes to the code.
 You will see the build errors and warnings in the console.
 
