@@ -2,8 +2,7 @@
 
 # Introduction
 
-Hangout is a web application backed by Django where every user can create, update and delete post on the feed(with timestamp). New users can set profile picture(also update later). Users can reset password via registered e-mail.  
-Application uses PostgreSQL(relation database) to store user information and their blogs. AWS is used to store static files(profile picture). Heroku is used for deloyment.
+Hangout is a realtime chat application built on MERN stack. User can login using Google and send/receive message(with timestamp) in realtime in chat rooms. MongoDB(NoSQL) used for cloud storage of conversations. Pusher for realtime update.
 
 [<img src="https://github.com/bmbshlly/django-blogpost/blob/main/giphy.gif" width="480" height="270">](https://django-blogpost.herokuapp.com)
 
@@ -19,14 +18,11 @@ Application uses PostgreSQL(relation database) to store user information and the
 - [Heroku](https://www.heroku.com) - Deloyment
 
 ## Key features:
-- Authentication (register, login, logout)
-- Reset password via SMTP (mail received with reset password link!)
-- Create, update, delete post with timestamp (only author can edit)
-- Pagination (per page 5 post) - navigation to first, previous 3, current, next 3 and last page in the bottom
-- Profile update with picture
-- View all post by a user in page.
-
-
+- Google Authentication
+- Avatar/profile pic same as Google account
+- Create rooms and message (with timestamp)
+- Messages visible with sender's avatar
+- Logout by clicking on your avatar
 
 ## Getting Started
 
