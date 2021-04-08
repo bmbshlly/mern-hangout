@@ -4,7 +4,7 @@
 
 Hangout is a realtime chat application built on MERN stack. User can login using Google and send/receive message(with timestamp) in realtime in chat rooms. MongoDB(NoSQL) used for cloud storage of conversations. Pusher for realtime update.
 
-[<img src="https://github.com/bmbshlly/django-blogpost/blob/main/giphy.gif" width="480" height="270">](https://django-blogpost.herokuapp.com)
+[<img src="https://github.com/bmbshlly/mern-hangout/blob/main/hangout.gif" width="480" height="270">](https://mern-hangout.herokuapp.com)
 
 ## Tools:
 - [Material-UI](https://material-ui.com) - React UI framework
