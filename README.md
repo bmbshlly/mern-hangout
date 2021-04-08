@@ -41,13 +41,12 @@ Application uses PostgreSQL(relation database) to store user information and the
 - [Material-UI](https://material-ui.com) - React UI framework
 - [Redux](https://redux.js.org) - State container for JS
 - [React](https://reactjs.org) - JS library
-
 - [Pusher](https://pusher.com) - Realtime chat
-- [Express](https://expressjs.com) - Node.js(https://nodejs.org) framework
-- [Postman](https://www.postman.com) - API testing  
+- [Express](https://expressjs.com) - [Node.js](https://nodejs.org) framework
+- [Postman](https://www.postman.com) - API testing
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) - NoSQL cloud database
 - [Firebase](https://firebase.google.com/docs/auth) - Google authentication
-- [Heroku](https://www.heroku.com) - Deloyment.
+- [Heroku](https://www.heroku.com) - Deloyment
 
 ## Key features:
 - Authentication (register, login, logout)
